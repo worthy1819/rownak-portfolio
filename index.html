@@ -18,9 +18,9 @@
     
     <!-- header design  -->
      <header class="header fixed top-0 left-0 w-full py-8 px-[9%] bg-transparent flex justify-between items-center z-[100]">
-        <a href="#" class="logo text-[2.5rem] text-[#ededed] font-[600]">Rownak.</a>
+        <a href="#" class="logo">Rownak.<span class="animate" style="--i:1;"></span></a>
 
-        <div class="bx bx-menu" id="menu-icon"></div>
+        <div class="bx bx-menu" id="menu-icon"><span class="animate" style="--i:2;"></span></div>
 
         <nav class="nav-bar">
             <a href="#home" class="active">Home</a>
@@ -30,62 +30,75 @@
             <a href="#contact">Contact</a>
 
             <span class="active-nav"></span>
+            <span class="animate" style="--i:2;"></span>
         </nav>
      </header>
 
     <!-- home section design  -->
-    <section id="home" class="home pt-[10rem] pb-[2rem] flex items-center relative">
+    <section id="home" class="home show-animate pt-[10rem] pb-[2rem] flex items-center relative">
         <div class="home-content max-w-[60rem]">
-            <h1 class="text-[5.6rem] font-[700] leading-[1.3]">Hi, I'm <span>Rownak Worthy</span></h1>
-            <div class="text-animate relative w-[32.8rem]">
+            <h1 class="text-[5.6rem] font-[700] leading-[1.3]">Hi, I'm <span>Rownak Worthy</span><span class="animate" style="--i:2;"></span></h1>
+            <div class="text-animate relative w-[27.5rem]">
                 <h3>Frontend Developer</h3>
+                <span class="animate" style="--i:3;"></span>
             </div>
-            <p class="text-[1.6rem] mt-8 mx-0 mb-16">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque, quasi? Quod illo voluptatibus dolorem tempora ut ullam numquam. Eius voluptas minus rem distinctio quis unde, porro doloremque.</p>
+            <p class="text-[1.6rem] mt-8 mx-0 mb-16">Hi, I'm Rownak Worthy, a front-end web developer. I'm good at HTML, CSS, and JavaScript and focus on making websites look great on all devices. I like to keep learning about new web technologies to make sure I'm always up to date.
+                <span class="animate" style="--i:4;"></span>
+            </p>
 
             <div class="btn-box relative flex justify-between w-[34.5rem] h-[5rem]">
-                <a href="" class="">Hire Me</a>
-                <a href="" class="">Let's Talk</a>
+                <a href="https://www.fiverr.com/rownakworthy?up_rollout=true" class="" target="_blank">Hire Me</a>
+                <a href="https://wa.me/8801849308568" class="" target="_blank">Let's Talk</a>
+                <span class="animate" style="--i:5;"></span>
             </div>
         </div>
 
         <div class="home-sci">
-            <a href="" class=""><i class='bx bxl-facebook'></i></a>
-            <a href="" class=""><i class='bx bxl-instagram'></i></a>
-            <a href="" class=""><i class='bx bxl-linkedin'></i></a>
+            <a href="https://www.facebook.com/rownakraw.worthy/" class="" target="_blank"><i class='bx bxl-facebook'></i></a>
+            <a href="https://www.instagram.com/rownakworthy/" class="" target="_blank"><i class='bx bxl-instagram'></i></a>
+            <a href="https://www.linkedin.com/in/rownak-worthy-9928bb267/" class="" target="_blank"><i class='bx bxl-linkedin'></i></a>
+            <span class="animate" style="--i:6;"></span>
         </div>
 
         <div class="home-imgHover"></div>
+        <span class="animate home-img" style="--i:7;"></span>
     </section>
 
     <!-- about section design  -->
     <section class="about flex justify-center items-center flex-col gap-[2rem] pb-24" id="about">
-        <h2 class="heading text-[5rem] mb-[3rem] text-center">About <span class="heading-span">Me</span></h2>
+        <h2 class="heading text-[5rem] mb-[3rem] text-center">About <span class="heading-span">Me</span><span class="animate scroll" style="--i:1;"></span></h2>
 
         <div class="about-img relative w-[25rem] h-[25rem] rounded-[50%] flex justify-center items-center">
             <img src="Photo/icon-pic.png" alt="" class="w-[90%] rounded-[50%] border-[.2rem] border-solid">
             <span class="circle-spin"></span>
+            <span class="animate scroll" style="--i:2;"></span>
         </div>
 
         <div class="about-content text-center">
-            <h3 class="text-[2.6rem]">Frontend Developer!</h3>
-            <p class="text-[1.6rem] mt-[2rem] mx-0 mb-[3rem]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur sapiente quia debitis architecto tempora sit ducimus doloremque exercitationem, magni minus nesciunt, perferendis blanditiis dignissimos libero quam voluptatibus. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis nobis illum quae similique iste veritatis tempore obcaecati! Fuga, hic expedita.</p>
+            <h3 class="text-[2.6rem] relative inline-block">Frontend Developer!<span class="animate scroll" style="--i:3;"></span></h3>
+            <p class="text-[1.6rem] mt-[2rem] mx-0 mb-[3rem] relative">Hi, I'm Rownak Worthy, a front-end web developer. I'm good at HTML, CSS, and JavaScript and focus on making websites look great on all devices. I like to keep learning about new web technologies to make sure I'm always up to date. 
+
+                I work at Aspire Academic Care, an online education platform. I helped build their website, and now I take care of it to ensure everything runs smoothly. Let's connect and talk about making cool stuff together!
+                <span class="animate scroll" style="--i:4;"></span>
+            </p>
         </div>
 
-        <div class="btn-box btns inline-block w-[15rem]">
-            <a href="" class="py-4">Read More</a>
+        <div class="btn-box btns inline-block w-[15rem] relative">
+            <a href="https://www.linkedin.com/in/rownak-worthy-9928bb267/" class="py-4" target="_blank">Read More</a>
+            <span class="animate scroll" style="--i:5;"></span>
         </div>
 
     </section>
 
     <!-- education section design  -->
      <section class="education" id="education">
-        <h2 class="heading text-[5rem] mb-[3rem] text-center">My <span class="heading-span">Journey</span></h2>
+        <h2 class="heading text-[5rem] mb-[3rem] text-center">My <span class="heading-span">Journey</span><span class="animate scroll" style="--i:1;"></span></h2>
 
         <div class="education-row">
             <div class="education-column">
-                <h3 class="title">Education</h3>
+                <h3 class="title relative inline-block">Education<span class="animate scroll" style="--i:2;"></span></h3>
 
-                <div class="education-box">
+                <div class="education-box relative">
                     <div class="education-content">
                         <div class="content">
                             <div class="year"><i class='bx bxs-calendar'></i> 2017 - 2018</div>
@@ -107,11 +120,12 @@
                             <p class="">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum eveniet dignissimos consequatur veniam eum aliquam mollitia nihil, culpa ab fugit.</p>
                         </div>
                     </div>
+                    <span class="animate scroll" style="--i:3;"></span>
                 </div>
             </div>
 
             <div class="education-column">
-                <h3 class="title">Experience</h3>
+                <h3 class="title">Experience<span class="animate scroll" style="--i:5;"></span></h3>
 
                 <div class="education-box">
                     <div class="education-content">
@@ -135,6 +149,7 @@
                             <p class="">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum eveniet dignissimos consequatur veniam eum aliquam mollitia nihil, culpa ab fugit.</p>
                         </div>
                     </div>
+                    <span class="animate scroll" style="--i:6;"></span>
                 </div>
             </div>
         </div>
@@ -142,11 +157,11 @@
 
      <!-- skills  -->
      <section class="skills" id="skills">
-        <h2 class="heading">My <span>Skills</span></h2>
+        <h2 class="heading">My <span>Skills</span><span class="animate scroll" style="--i:1;"></span></h2>
 
         <div class="skills-row">
             <div class="skills-column">
-                <h3 class="title">Coding skills</h3>
+                <h3 class="title">Coding skills<span class="animate scroll" style="--i:2;"></span></h3>
 
                 <div class="skills-box">
                     <div class="skills-content">
@@ -167,10 +182,11 @@
                             <div class="bar"><span></span></div>
                         </div>
                     </div>
+                    <span class="animate scroll" style="--i:3;"></span>
                 </div>
             </div>
             <div class="skills-column">
-                <h3 class="title">Professional skills</h3>
+                <h3 class="title">Professional skills<span class="animate scroll" style="--i:4;"></span></h3>
 
                 <div class="skills-box">
                     <div class="skills-content">
@@ -191,6 +207,7 @@
                             <div class="bar"><span></span></div>
                         </div>
                     </div>
+                    <span class="animate scroll" style="--i:5;"></span>
                 </div>
             </div>
         </div>
@@ -198,7 +215,7 @@
 
      <!-- contact  -->
       <section class="contact" id="contact">
-        <h2 class="heading">Contact <span>Me!</span></h2>
+        <h2 class="heading">Contact <span>Me!</span><span class="animate scroll" style="--i:1;"></span></h2>
 
         <form action="#">
             <div class="input-box">
@@ -218,13 +235,16 @@
                     <input type="text" placeholder="E-mail Subject" required>
                     <span class="focus"></span>
                 </div>
+                <span class="animate scroll" style="--i:2;"></span>
             </div>
             <div class="textarea-box">
                 <textarea name="" id="" cols="30" rows="10" placeholder="Your Message" required></textarea>
                 <span class="focus"></span>
+                <span class="animate scroll" style="--i:3;"></span>
             </div>
-            <div class="btn-box btns">
+            <div class="btn-box btns relative inline-block">
                 <button type="submit" class="btn">Submit</button>
+                <span class="animate scroll" style="--i:4;"></span>
             </div>
         </form>
       </section>
@@ -232,7 +252,7 @@
       <!-- footer  -->
        <footer class="footer">
         <div class="footer-text">
-            <p>Copyright &copy; 2024 By Rownak | All Rights Reserved.</p>
+            <p>Copyright &copy; 2024 By <span class="f-name">Rownak</span> | All Rights Reserved.</p>
         </div>
         <div class="footer-iconTop">
             <a href="#"><i class='bx bx-up-arrow-alt'></i></a>
